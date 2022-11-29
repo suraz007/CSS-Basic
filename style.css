@@ -1,0 +1,73 @@
+/* element selector */
+/* p {
+  color: blue;
+} */
+
+/* section {
+  background: rgb(87, 85, 85);
+  color: white;
+} */
+
+/* id selector */
+/* #fifth {
+  background: rgba(16, 145, 89, 0.633);
+} */
+
+/* class selector */
+/* .pg {
+  background: rgb(168, 183, 120);
+  font-size: 25px;
+} */
+
+/* Descendant (space) */
+section p {
+  color: green;
+  text-decoration: line-through;
+}
+
+/* Child (>) */
+section > p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Adjacent (+) */
+section + p {
+  background: yellow;
+}
+
+/* Sibling (~) */
+/* section ~ p {
+  background: blue;
+} */
+
+/* Attribute selector */
+[href] {
+  text-decoration: none;
+}
+
+[href="google"] {
+  text-decoration: none;
+  color: red;
+}
+
+/* Pesudo-elements Selector */
+p::first-line {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+p::first-letter {
+  font-size: 32px;
+}
+
+/* Pesudo class selector */
+a:hover {
+  background-color: red;
+  color: brown;
+  font-size: 32px;
+}
+
+P:nth-child(even) {
+  background: rgb(99, 192, 130);
+}
